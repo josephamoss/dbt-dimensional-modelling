@@ -1,0 +1,16 @@
+{
+
+    "duckdb.databases": [
+        {
+            "alias": "adventureworks",
+            "type": "file",
+            "path": "${workspaceFolder}/target/adventureworks.duckdb",
+            "readOnly": false,
+            "attached": true
+        }
+    ],
+
+    "files.associations": {
+        "*.duck": "sql"
+    }
+}

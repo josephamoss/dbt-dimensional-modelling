@@ -1,0 +1,8 @@
+--ATTACH '/Users/josephamoss/Documents/dev/github-personal/dbt-dimensional-modelling/adventureworks/target/adventureworks.duckdb' AS adventureworks;
+
+--select * from sales.salesorderheader limit 10; 
+
+select * from sales.salesorderheader limit 10;
+
+-- SHOW ALL TABLES;
+--DESCRIBE person.countryregion;
